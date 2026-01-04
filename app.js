@@ -94,7 +94,25 @@ input.addEventListener("keydown", (event) => {
     } else if (event.key === '*') {
         let mul = document.querySelector("#mul");
         mul.click();
+    } else if (event.key === "Escape") {
+        let ac = document.querySelector("#ac");
+        ac.click();
+    } else if (event.key === "Backspace") {
+        input.focus();
     }
+});
+
+// AC and DEL buttons
+let acBtn = document.querySelector("#ac");
+let delBtn = document.querySelector("#del");
+
+acBtn.addEventListener("click", () => {
+    input.value = "";
+});
+
+delBtn.addEventListener("click", () => {
+    input.value = input.value.slice(0, -1);
+    validInput();
 });
 
 
