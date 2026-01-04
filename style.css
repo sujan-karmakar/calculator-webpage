@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to right top, #000000, #240046, #004e64);
+    background: linear-gradient(to right top, #0f0c29, #302b63, #24243e);
     color: white;
 }
 
@@ -88,10 +88,10 @@ body {
 
 .digit:hover, .operator:hover {
     transform: scale(1.1);
-    border: 2px solid #9d4edd;
+    border: 2px solid #ff00cc;
     background: rgba(0, 0, 0, 0.6);
-    color: #e0aaff;
-    box-shadow: 0 0 20px #7b2cbf, 0 0 40px #00b09b;
+    color: #00d2ff;
+    box-shadow: 0 0 20px #ff00cc, 0 0 40px #00d2ff;
 }
 
 #calculation-input {
@@ -111,8 +111,8 @@ body {
 
 #calculation-input:focus {
     outline: none;
-    border: 1px solid #9d4edd;
-    box-shadow: 0 0 10px rgba(157, 78, 221, 0.5);
+    border: 1px solid #ff00cc;
+    box-shadow: 0 0 10px rgba(255, 0, 204, 0.5);
 }
 
 /* Remove autofill background */
