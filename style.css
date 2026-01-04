@@ -125,3 +125,34 @@ input:-webkit-autofill:active{
     transition: background-color 5000s ease-in-out 0s;
     box-shadow: inset 0 0 20px 20px rgba(0, 0, 0, 0);
 }
+
+@media (max-width: 480px) {
+    #outer-box {
+        padding: 1rem;
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .digit, .operator {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 1rem;
+    }
+
+    #calculation-input {
+        width: 12rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .digit, .operator {
+        width: 3rem;
+        height: 3rem;
+        font-size: 0.9rem;
+    }
+
+    #calculation-input {
+        width: 10rem;
+    }
+}
