@@ -12,8 +12,8 @@ A simple, responsive, and functional calculator webpage built using HTML, CSS, a
 
 ## Technologies Used
 
--   HTML5
--   CSS3
+-   HTML
+-   CSS
 -   JavaScript
 
 ## How to Run
