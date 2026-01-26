@@ -18,6 +18,6 @@ A simple, responsive, and functional calculator webpage built using HTML, CSS, a
 
 ## How to Run
 
-1.  Clone the repository or download the files.
+1.  Clone the repository.
 2.  Open `index.html` in any modern web browser.
 
