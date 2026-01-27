@@ -1,6 +1,6 @@
 # Calculator Webpage
 
-A simple, responsive, and functional calculator webpage built using HTML, CSS, and JavaScript.
+A simple, responsive, and functional calculator webpage built using frontend stack (HTML, CSS, and JavaScript).
 
 ## Features
 
